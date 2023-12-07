@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import RegistrationPage from './pages/RegistrationPage'
-// import Category from './pages/Category'
+import Category from './pages/Category'
 // import HomePage from './pages/HomePage';
 // import BrowseEntertainmentPage from './pages/BrowseEntertainmentPage';
 // import DefaultPage from './components/DefaultPage/DefaultPage';
