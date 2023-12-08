@@ -1,0 +1,16 @@
+.movieList{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .movieList {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+}

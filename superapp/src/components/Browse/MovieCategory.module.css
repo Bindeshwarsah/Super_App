@@ -1,0 +1,18 @@
+.categoryName{
+    color: #878787;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 139.688%; 
+    letter-spacing: 0.0375rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .categoryName{
+        text-align: center;
+    }
+
+}
