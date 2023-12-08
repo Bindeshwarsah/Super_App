@@ -1,0 +1,118 @@
+.error,
+.errorMessage,
+.loading,
+.weatherContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 20vh;
+    border-bottom-left-radius:2.08925rem;
+    border-bottom-right-radius: 2.08925rem;
+    background-color: #101744;
+    padding: 0 1.4rem .5rem 1.5rem;
+   
+}
+
+.error,
+.loading,
+.errorMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.weatherInfo,
+.temperatureInfo,
+.windHumidityInfo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherCondition{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%;
+}
+.tempMeasurement{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; 
+}
+.pressureInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; 
+}
+.pressureLogo{
+   padding-top: .7rem;
+}
+
+.humidityInfo,
+.windInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%;
+    padding-top: .5rem;
+}
+.horizontalLine{
+    height: 12vh;
+    margin-top: 1.5rem;
+}
+
+.weatherIcon{
+    color: white;
+    font-size: 3rem;
+    height: 4rem;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .error,
+    .errorMessage,
+    .loading,
+    .weatherContainer {
+        width: 90vw;
+        height: auto; /* Adjust height as needed for smaller screens */
+    }
+  
+    .tempMeasurement {
+      font-size: 6vmin; /* Adjust font size for smaller screens */
+    }
+  
+    .weatherCondition {
+      font-size: 4vmin; /* Adjust font size for smaller screens */
+    }
+  
+    .pressureInfo,
+    .humidityInfo,
+    .windInfo {
+      font-size: 4vmin; /* Adjust font size for smaller screens */
+    }
+  }
