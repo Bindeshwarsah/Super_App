@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     width: 40vw;
-    height: 20vh;
+    min-height: 22vh;
     border-bottom-left-radius:2.08925rem;
     border-bottom-right-radius: 2.08925rem;
     background-color: #101744;
